@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # This is a script to remote control PowerPoint presentations on Windows from your smartphone. 
 # Usage:
 #  * Run pptremoteserver.py on a server accessible from the internet

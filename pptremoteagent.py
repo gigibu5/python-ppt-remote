@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # This is a script to remote control PowerPoint presentations on Windows from your smartphone. 
 # Usage:
 #  * Run pptremoteserver.py on a server accessible from the internet
@@ -59,7 +61,7 @@ def main(argv):
         time.sleep(1)
         wintext = GetWindowText(GetForegroundWindow())
                 
-        if wintext.startswith('PowerPoint Slide Show - ['):
+        if wintext.startswith('PowerPointova diaprojekcija - ['):
             cmd = getcommand (arg_server)
             if not cmd is None:
                 if   cmd == 'next':

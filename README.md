@@ -1,4 +1,6 @@
 # python-ppt-remote
+This project was modified to work with the Slovene version of PowerPoint.
+
 This is a script to remote control PowerPoint presentations on Windows from your smartphone. 
 
 Usage:
